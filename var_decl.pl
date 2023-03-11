@@ -1,0 +1,17 @@
+use 5.010;  
+use strict;  
+my $x = 23;  
+say $x;  
+state $name = "Anastasia";   
+say $name;  
+our $rank = "9th";  
+say $rank;  
+use vars qw($marks);  
+$marks = 756.5;  
+say $marks;  
+$Person::name = 'John';  
+say $Person::name;  
+$a = 1224365;  
+say $a;  
+ $b = "Welcome at JavaTpoint";  
+say $b;    
